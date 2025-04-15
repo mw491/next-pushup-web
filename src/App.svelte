@@ -22,7 +22,6 @@
 </script>
 
 <svelte:head>
-  <title>NEXT PUSHUP - Transform Your Pushup Game</title>
   <meta
     name="description"
     content="Track and improve your pushup performance with NEXT PUSHUP. Set goals, monitor progress, and get daily reminders for consistent training."
