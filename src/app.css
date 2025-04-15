@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-np-dark text-np-white font-zendots;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.btn-primary {
+  @apply bg-np-white text-np-dark px-6 py-3 rounded-full 
+         hover:bg-opacity-80 hover:-translate-y-1 hover:shadow-sm hover:shadow-white transition-all duration-300
+         flex items-center gap-2 font-zendots;
+}
