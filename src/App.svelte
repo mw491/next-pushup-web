@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import appScreenshot from "../public/app-screenshot.jpg";
 
   let latestRelease: string = "";
   let downloadUrl: string = "";
@@ -80,7 +81,7 @@
       <div class="md:w-1/2 mb-12 md:mb-0">
         <div class="max-w-sm mx-auto md:max-w-none">
           <img
-            src="/app-screenshot.jpg"
+            src={appScreenshot}
             alt="NEXT PUSHUP App Interface"
             class="rounded-2xl shadow-2xl max-w-sm shadow-black"
             loading="lazy"
