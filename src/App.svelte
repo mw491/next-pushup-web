@@ -8,7 +8,7 @@
   onMount(async () => {
     try {
       const response = await fetch(
-        "https://api.github.com/repos/mw491/next-pushup/releases/latest",
+        "https://api.github.com/repos/mw491/next-pushup/releases/latest"
       );
       const data = await response.json();
       latestRelease = data.tag_name;
@@ -40,6 +40,9 @@
     content="Track and improve your pushup performance with NEXT PUSHUP."
   />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content={appScreenshot} />
+  <meta property="og:url" content="https://mw491.github.io/next-pushup-web" />
+  <meta property="og:site_name" content="NEXT PUSHUP" />
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-t from-np-gray via-np-dark">
