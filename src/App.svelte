@@ -42,7 +42,7 @@
   <meta property="og:type" content="website" />
 </svelte:head>
 
-<main class="min-h-screen bg-np-dark">
+<main class="min-h-screen bg-gradient-to-t from-np-gray via-np-dark">
   <div class="max-w-7xl mx-auto px-4 py-32 sm:px-6 lg:px-8">
     <!-- Hero Section -->
     <section class="text-center mb-16 animate-fade-in">
@@ -73,6 +73,8 @@
           View on GitHub
         </a>
       </div>
+
+      <h3 class="text-2xl sm:text-4xl">Simple. Effective. Powerful.</h3>
     </section>
 
     <!-- App Preview and Features Section -->
