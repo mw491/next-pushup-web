@@ -40,7 +40,7 @@
     content="Track and improve your pushup performance with NEXT PUSHUP."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content={appScreenshot} />
+  <meta property="og:logo" content="/public/icon.png" />
   <meta property="og:url" content="https://mw491.github.io/next-pushup-web" />
   <meta property="og:site_name" content="NEXT PUSHUP" />
 </svelte:head>
